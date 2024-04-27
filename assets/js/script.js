@@ -26,3 +26,7 @@ $(document).ready(function (){
 $(".card-img-top").click(function (){
     $(this).next().toggle("slow")
   })
+
+  $(".btn-info").click(function () {
+    alert('El correo fue enviado correctamente')
+  })
