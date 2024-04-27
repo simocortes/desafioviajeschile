@@ -23,3 +23,6 @@ $(document).ready(function (){
     $('[data-bs-toggle="tooltip"]').tooltip()
 })
 
+$(".card-img-top").click(function (){
+    $(this).next().toggle("slow")
+  })
